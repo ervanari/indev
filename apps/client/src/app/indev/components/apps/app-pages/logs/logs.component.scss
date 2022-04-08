@@ -7,8 +7,10 @@
 .containers .box {
   position: relative;
   width: 90%;
-  background: #fff;
+  background: #171923;
+  color: #fff;
   cursor: pointer;
+  border-radius: 10px;
   transition: 0.5s ease-in-out;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.025);
 }

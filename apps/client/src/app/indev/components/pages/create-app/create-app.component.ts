@@ -20,25 +20,25 @@ export class CreateAppComponent {
     {
       title: 'Github',
       path: 'indev/Github',
-      icon: 'fa fa-crop',
+      icon: '../../../../../assets/github.png',
       children: [],
     },
     {
       title: 'Gitlab',
       path: 'indev/Gitlab',
-      icon: 'fa fa-apple',
+      icon: '../../../../../assets/gitlab.png',
       children: [],
     },
     {
       title: 'Dokku',
       path: 'indev/Dokku',
-      icon: 'fa fa-file',
+      icon: '../../../../../assets/dokku.png',
       children: [],
     },
     {
       title: 'Docker',
       path: 'indev/Docker',
-      icon: 'fa fa-list',
+      icon: '../../../../../assets/docker.png',
       children: [],
     },
   ];

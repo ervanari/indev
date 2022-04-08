@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AuthModule } from '../auth/auth.module';
 import { LandingComponent } from '../landing/landing.component';
+import { AppsModule } from './components/apps/apps.module';
 import { ContainerComponent } from './components/layouts/container/container.component';
 import { ActivityComponent } from './components/pages/activity/activity.component';
 import { ActivityModule } from './components/pages/activity/activity.module';
@@ -46,8 +47,12 @@ const routes: Routes = [
         component: CreateDbComponent,
       },
       {
+        path: 'apps',
+        component: AppsModule,
+      },
+      {
         path: '**',
-        redirectTo: '',
+        redirectTo: 'home',
       },
     ],
   },

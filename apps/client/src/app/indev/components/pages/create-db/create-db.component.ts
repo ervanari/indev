@@ -20,25 +20,25 @@ export class CreateDbComponent {
     {
       title: 'PostgreSQL',
       path: 'indev/Create-PostgreSQL',
-      icon: 'fa fa-crop',
+      icon: '../../../../../assets/postgre.png',
       children: [],
     },
     {
       title: 'MySQL',
       path: 'indev/Create-MySQL',
-      icon: 'fa fa-apple',
+      icon: '../../../../../assets/mysql.png',
       children: [],
     },
     {
       title: 'Mongo',
       path: 'indev/Create-Mongo',
-      icon: 'fa fa-file',
+      icon: '../../../../../assets/mongo.png',
       children: [],
     },
     {
       title: 'Redis',
       path: 'indev/Create-Redis',
-      icon: 'fa fa-list',
+      icon: '../../../../../assets/redis.png',
       children: [],
     },
   ];
